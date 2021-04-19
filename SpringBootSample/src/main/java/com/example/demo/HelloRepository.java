@@ -14,7 +14,7 @@ public class HelloRepository {
 
 	public Map<String, Object>findById(String id) {
 
-
+		// SQL
 		String query = "SELECT *"
 				+ " FROM employee"
 				+ " WHERE id=?";
